@@ -1,3 +1,34 @@
 ### YamlMime:XRefMap
 sorted: true
-references: []
+references:
+- uid: JMRSDKExampleSnippets
+  name: JMRSDKExampleSnippets
+  href: api/JMRSDKExampleSnippets.html
+  commentId: N:JMRSDKExampleSnippets
+  fullName: JMRSDKExampleSnippets
+  nameWithType: JMRSDKExampleSnippets
+- uid: JMRSDKExampleSnippets.ControllerOrientation
+  name: ControllerOrientation
+  href: api/JMRSDKExampleSnippets.ControllerOrientation.html
+  commentId: T:JMRSDKExampleSnippets.ControllerOrientation
+  fullName: JMRSDKExampleSnippets.ControllerOrientation
+  nameWithType: ControllerOrientation
+- uid: JMRSDKExampleSnippets.ControllerOrientation.additionalOffset
+  name: additionalOffset
+  href: api/JMRSDKExampleSnippets.ControllerOrientation.html#JMRSDKExampleSnippets_ControllerOrientation_additionalOffset
+  commentId: F:JMRSDKExampleSnippets.ControllerOrientation.additionalOffset
+  fullName: JMRSDKExampleSnippets.ControllerOrientation.additionalOffset
+  nameWithType: ControllerOrientation.additionalOffset
+- uid: JMRSDKExampleSnippets.ControllerOrientation.LateUpdate
+  name: LateUpdate()
+  href: api/JMRSDKExampleSnippets.ControllerOrientation.html#JMRSDKExampleSnippets_ControllerOrientation_LateUpdate
+  commentId: M:JMRSDKExampleSnippets.ControllerOrientation.LateUpdate
+  fullName: JMRSDKExampleSnippets.ControllerOrientation.LateUpdate()
+  nameWithType: ControllerOrientation.LateUpdate()
+- uid: JMRSDKExampleSnippets.ControllerOrientation.LateUpdate*
+  name: LateUpdate
+  href: api/JMRSDKExampleSnippets.ControllerOrientation.html#JMRSDKExampleSnippets_ControllerOrientation_LateUpdate_
+  commentId: Overload:JMRSDKExampleSnippets.ControllerOrientation.LateUpdate
+  isSpec: "True"
+  fullName: JMRSDKExampleSnippets.ControllerOrientation.LateUpdate
+  nameWithType: ControllerOrientation.LateUpdate

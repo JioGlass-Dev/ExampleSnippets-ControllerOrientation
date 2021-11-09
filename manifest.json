@@ -2,6 +2,7 @@
   "sitemap": {
     "fileOptions": {
       "api/*": {
+        "baseUrl": "https://docs.tesseract.in/documentation/",
         "changefreq": "daily"
       }
     },
@@ -20,6 +21,42 @@
         }
       },
       "is_incremental": false
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/JMRSDKExampleSnippets.ControllerOrientation.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/JMRSDKExampleSnippets.ControllerOrientation.html",
+          "hash": "OTYWrCVyfJ+5Xq6D7TdgD0QJsMiq8SzZn4A55ouw7E4="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/JMRSDKExampleSnippets.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/JMRSDKExampleSnippets.html",
+          "hash": "cPp+z2OQZcMAWsBaEY0oVtL42XoGLZHpLCOR1zEHnks="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "api/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/toc.html",
+          "hash": "vK+btWqjtjsEMbUILVWJKekfX9afIRZQCPgmaFCB7nE="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
     },
     {
       "type": "Conceptual",
@@ -85,7 +122,7 @@
       "output": {
         ".html": {
           "relative_path": "toc.html",
-          "hash": "6m+/uOVNi1EBm888U3wOgde6F9nQLIJTo5YkOIqud6M="
+          "hash": "NYNnOJZ88KMB8rBXpBhhfXgGpwLXtPTqZ0vJglRZl+8="
         }
       },
       "is_incremental": false,
@@ -104,6 +141,12 @@
       },
       "processors": {
         "ConceptualDocumentProcessor": {
+          "can_incremental": false,
+          "incrementalPhase": "build",
+          "total_file_count": 2,
+          "skipped_file_count": 0
+        },
+        "ManagedReferenceDocumentProcessor": {
           "can_incremental": false,
           "incrementalPhase": "build",
           "total_file_count": 2,

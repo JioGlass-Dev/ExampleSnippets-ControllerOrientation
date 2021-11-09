@@ -1,4 +1,14 @@
 {
+  "api/JMRSDKExampleSnippets.ControllerOrientation.html": {
+    "href": "api/JMRSDKExampleSnippets.ControllerOrientation.html",
+    "title": "Class ControllerOrientation | JMR Samples",
+    "keywords": "Class ControllerOrientation Move and orient the object with the controller. Inheritance Object ControllerOrientation Namespace : JMRSDKExampleSnippets Assembly : cs.temp.dll.dll Syntax public class ControllerOrientation : MonoBehaviour Fields additionalOffset Add additional offset to the object position Declaration public Vector3 additionalOffset Field Value Type Description Vector3 Methods LateUpdate() Get JMRPointer Ray; Orient the bow looking at the raycast, and add offset to the position of bow. Declaration public void LateUpdate()"
+  },
+  "api/JMRSDKExampleSnippets.html": {
+    "href": "api/JMRSDKExampleSnippets.html",
+    "title": "Namespace JMRSDKExampleSnippets | JMR Samples",
+    "keywords": "Namespace JMRSDKExampleSnippets Classes ControllerOrientation Move and orient the object with the controller."
+  },
   "index.html": {
     "href": "index.html",
     "title": "ExampleSnippets-ControllerOrientation | JMR Samples",
