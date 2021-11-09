@@ -2,7 +2,7 @@
 using JMRSDK.InputModule;
 using UnityEngine;
 
-namespace Shreyansh
+namespace JMRSDKExampleSnippets
 {
     /// <summary>
     /// Move and orient the object with the controller.
