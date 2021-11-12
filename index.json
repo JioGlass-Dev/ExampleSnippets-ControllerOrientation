@@ -11,8 +11,8 @@
   },
   "index.html": {
     "href": "index.html",
-    "title": "ExampleSnippets-ControllerOrientation | JMR Samples",
-    "keywords": "ExampleSnippets-ControllerOrientation An example bow controlling scene by accessing controller orientation."
+    "title": "Controller Orientation | JMR Samples",
+    "keywords": "Controller Orientation An example scene of controlling gameobject by using controller orientation. Summary This project have detailed scene for controlling the orientation of GameObject (bow) with the help of JioGlass controller Scripts Class ControllerOrientation - Move and orient the object with the controller. How to use Steps to follow: Download and unzip this project. Open the project using Unity Hub. Download and import the latest version of JMRSDK package. Open and play the ControllerOrientation scene from Assets/Scenes folder."
   },
   "manual/JMRSamples.html": {
     "href": "manual/JMRSamples.html",
