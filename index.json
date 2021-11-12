@@ -12,7 +12,7 @@
   "index.html": {
     "href": "index.html",
     "title": "Controller Orientation | JMR Samples",
-    "keywords": "Controller Orientation An example scene of controlling gameobject by using controller orientation. Summary This project have detailed scene for controlling the orientation of GameObject (bow) with the help of JioGlass controller Scripts Class ControllerOrientation - Move and orient the object with the controller. How to use Steps to follow: Download and unzip this project. Open the project using Unity Hub. Download and import the latest version of JMRSDK package. Open and play the ControllerOrientation scene from Assets/Scenes folder."
+    "keywords": "Controller Orientation An example scene of controlling gameobject by using controller orientation. Summary This project have detailed scene for controlling the orientation of GameObject (bow) with the help of JioGlass controller Scripts Class ControllerOrientation Move and orient the object with the controller. To get controller orientation cs Quaternion controllerOrientation = Quaternion.identity; try { source.TryGetPointerRotation(out controllerOrientation); } How to use Steps to follow: Download and unzip this project. Open the project using Unity Hub. Download and import the latest version of JMRSDK package. Open and play the ControllerOrientation scene from Assets/Scenes folder."
   },
   "manual/JMRSamples.html": {
     "href": "manual/JMRSamples.html",
