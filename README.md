@@ -6,8 +6,16 @@ This project have detailed scene for controlling the orientation of GameObject (
 
 ## Scripts 
 
-* **Class ControllerOrientation** - 
-Move and orient the object with the controller.
+### Class ControllerOrientation
+Move and orient the object with the controller.</br>
+- To get controller orientation
+```cs
+Quaternion controllerOrientation = Quaternion.identity;
+try
+{
+     source.TryGetPointerRotation(out controllerOrientation);
+}
+```
 
 ## How to use
 Steps to follow:
